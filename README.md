@@ -2,8 +2,8 @@
 
 A PlatformIO library to stop time. Based on the Arduino framework.
 
-[!WARNING]
-This library is currently under development!
+> [!WARNING]
+> This library is currently under development!
 
 ## Install:
 ### PlatformIO:
