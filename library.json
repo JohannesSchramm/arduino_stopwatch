@@ -1,0 +1,36 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "ArduinoStopwatch",
+    "version": "0.1.0",
+    "description": "A PlatformIO library to stop time. Based on the Arduino framework.",
+    "keywords" : "stopwatch,arduino",
+    "homepage": "https://github.com/JohannesSchramm/arduino_stopwatch",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JohannesSchramm/arduino_stopwatch.git"
+    },
+    "authors": {
+      "name": "Johannes Schramm",
+      "maintainer": true
+    },
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "headers": "arduino_stopwatch.h",
+    "examples": [
+        {
+            "name": "Stop-Random-Time",
+            "base": "examples/stop_random_time",
+            "files": [
+                "include/arduino_stopwatch.h"
+            ]
+        }
+    ],
+    "dependencies": {},
+    "export": {
+        "include": [
+            "/src/*",
+            "/include/*"
+        ]
+    }
+  }
