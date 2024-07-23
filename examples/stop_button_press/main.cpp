@@ -3,6 +3,9 @@
 
 using namespace ArduinoStopwatch;
 
+// Button connected between GND and pin 7.
+// NOTE: the button is not debounced, so the detection of multiple presses is to be expected.
+
 const int BUTTON_PIN = 7;
 Stopwatch16MS myWatch;
 
