@@ -25,5 +25,5 @@ The examples use a [RaspberryPi Pico](https://www.raspberrypi.com/products/raspb
 Classes, functions, types, constants, ... are documented in the header files.
 
 ## TODOs
-* testing
-* documentation
+* test include in other project
+* upload to PlatformIO registry
