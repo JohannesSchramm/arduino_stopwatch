@@ -19,8 +19,10 @@ public:
     /// @brief Constructs a new Stopwatch object.
     Stopwatch() : startTime(0) {}
     /// @brief Resets the start time to the current system time.
-    void restart() {
+    /// @return Start time.
+    TValue restart() {
         startTime = getTime();
+        return startTime;
     }
     /// @brief Gets the time since the last time `restart()` was called.
     /// @return Time since the last restart.
@@ -46,6 +48,11 @@ public:
         case TimeUnit::US: return (TValue)micros();
         default: return 0;
         }
+    }
+    /// @brief Gets the time the stopwatch was restarted.
+    /// @return Start time.
+    TValue getStartTime() const {
+        return startTime;
     }
 private:
     TValue startTime;
