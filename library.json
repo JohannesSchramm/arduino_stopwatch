@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
     "name": "ArduinoStopwatch",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "A PlatformIO library to stop time. Based on the Arduino framework.",
     "keywords" : "stopwatch,arduino",
     "homepage": "https://github.com/JohannesSchramm/arduino_stopwatch",

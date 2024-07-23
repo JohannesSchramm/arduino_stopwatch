@@ -2,14 +2,11 @@
 
 A PlatformIO library to stop time. Based on the Arduino framework.
 
-> [!WARNING]
-> This library is currently under development!
-
 ## Install
 ### PlatformIO
 Add the library to your `platformio.ini` file:
 ```
-lib_deps = <missing>
+lib_deps = https://github.com/JohannesSchramm/arduino_stopwatch.git#v1.0.0
 ```
 
 ## Examples
@@ -25,5 +22,4 @@ The examples use a [RaspberryPi Pico](https://www.raspberrypi.com/products/raspb
 Classes, functions, types, constants, ... are documented in the header files.
 
 ## TODOs
-* test include in other project
 * upload to PlatformIO registry
