@@ -6,11 +6,11 @@ A PlatformIO library to stop time. Based on the Arduino framework.
 ### PlatformIO
 Add the library to your `platformio.ini` file:
 ```
-lib_deps = johannesschramm/ArduinoStopwatch@^1.0.1
+lib_deps = johannesschramm/ArduinoStopwatch@^1.0.2
 ```
 or 
 ```
-lib_deps = https://github.com/JohannesSchramm/arduino_stopwatch.git#v1.0.1
+lib_deps = https://github.com/JohannesSchramm/arduino_stopwatch.git#v1.0.2
 ```
 
 ## Examples
