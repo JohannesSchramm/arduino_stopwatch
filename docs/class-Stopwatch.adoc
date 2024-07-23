@@ -3,6 +3,9 @@
 == Table of content
 
 :toc:
+:toc-placement!:
+
+toc::[]
 
 test!
 
